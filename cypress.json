@@ -1,0 +1,5 @@
+{
+  "ignoreTestFiles": "*.ts",
+  "baseUrl": "https://serene-mountain-14043.herokuapp.com/",
+  "browser": "chrome"
+}
