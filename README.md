@@ -1,13 +1,15 @@
 # dazn
- dazn tech test
-
-Steps to run the test
+** dazn tech test
+**
+**Steps to run the test
+**
 
 To run the test simple run
 
 yarn cypress run
 
-If you want to see whats going on please run
+**If you want to see whats going on please run
+**
 
 yarn cypress open
 
