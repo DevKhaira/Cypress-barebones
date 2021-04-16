@@ -6,6 +6,7 @@ import { IHomepage } from '../../../interfaces/homepage';
 import 'cypress-xpath'
 @injectable()
 export class Homepage implements IHomepage {
+    private selectors = {};
     public visit = () => {
         cy.visit('/');
         return this;
