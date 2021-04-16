@@ -9,5 +9,5 @@
     "esModuleInterop": true,
     "resolveJsonModule": true
   },
-  "include": ["./integration/*"]
+  "include": ["./cypress/integration/*", "./cypress/integration/**/*"]
 }

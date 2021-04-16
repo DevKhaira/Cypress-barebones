@@ -1,5 +1,5 @@
 {
   "ignoreTestFiles": "*.ts",
-  "baseUrl": "kungfulondon.com",
+  "baseUrl": "https://kungfulondon.com/",
   "browser": "chrome"
 }

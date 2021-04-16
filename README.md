@@ -1,10 +1,15 @@
-# dazn
-** dazn tech test
+# tech test
+** tech test bare bones
 **
 **Steps to run the test
 **
 
-To run the test simple run
+Make sure you have yarn and node.js
+
+Run yarn at route
+
+**To run the test simple run
+**
 
 yarn cypress run
 

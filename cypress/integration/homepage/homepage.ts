@@ -8,33 +8,3 @@ const homepage = ioc.get<IHomepage>(TYPES.Homepage);
 Given('I am on the homepage', () => {
   homepage.visit();
 });
-
-When(`I enter in postcode: {string}`, postCode => {
-  homepage.enterPostCode(postCode);
-});
-
-Then(`I should see the header`, () => {
-  homepage.assertHeaderVisible();
-});
-
-Then(`I should see the search bar`, () => {
-  homepage.assertSearchBarVisible();
-});
-
-Then(`I should see the word: {string}`, (message) => {
-  homepage.assertMessage(message);
-});
-
-Then(`I should see time, weather and humidity`, () => {
-  homepage.assertMessage('Time');
-  homepage.assertMessage('Temperature');
-  homepage.assertMessage('Humidity');
-});
-
-Then(`I should see all other properties with values`, () => {
-  homepage.assertPropertiesWithValues();
-});
-
-Then('I should see the time format correctly', () => {
-  homepage.assertTimeFormatIsCorrect();
-});
